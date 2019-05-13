@@ -10,6 +10,7 @@ body{
   height: 100px;
   z-index: 1;
   border-bottom: solid white 2px;
+  box-shadow: 0px 2px 10px grey;
 }
 #menu{
   position: relative;
@@ -70,4 +71,5 @@ body{
   background-color: black;
   position: relative;
   top: 1147px;
+  
 }
