@@ -10,13 +10,26 @@ body{
   height: 100px;
   z-index: 1;
   border-bottom: solid white 2px;
-
 }
+#menu{
+  position: relative;
+  left: 210px;
+  top: 23px;
+}
+#menu li{
+  display: inline;
+  color: white;
+  margin:70px;
+}
+#menu li:hover{
+  color: red;
+}
+
 .thing{
   position: relative;
   width: 35%;
   left: 790px;
-  top: 195px;
+  top: 145px;
 }
 
 .thing p{
