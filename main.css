@@ -21,9 +21,11 @@ body{
   display: inline;
   color: white;
   margin:70px;
+  cursor: pointer;
 }
 #menu li:hover{
   color: red;
+  cursor: pointer;
 }
 
 .thing{
@@ -59,7 +61,7 @@ body{
   left: 130px;
   bottom: 1834px;
   width: 1px;
-  height: 310%;
+  height: 309%;
   background-color: red;
 }
 /* paper design----------------------------------------------------- */
@@ -72,48 +74,96 @@ body{
   position: relative;
   top: 1147px;
 }
+
 /* squares------------------------------------------------------------ */
 #sq1{
 height: 16%;
 width:5%;
 background-color: white;
 animation: ras 2s infinite linear;
+z-index: -1;
 }
 #sq2{
 height: 16%;
 width:5%;
 background-color: white;
 animation: ras 5s infinite linear;
+z-index: -1;
 }
 #sq3{
 height: 16%;
 width:5%;
 background-color: white;
 animation: ras 3s infinite linear;
+z-index: -1;
 }
 #sq4{
 height: 16%;
 width:5%;
 background-color: white;
 animation: ras 4s infinite linear;
+z-index: -1;
 }
 #sq5{
 height: 16%;
 width:5%;
 background-color: white;
 animation: ras 6s infinite linear;
+z-index: -1;
 }
 #sq6{
 height: 16%;
 width:5%;
 background-color: white;
-animation: ras 5s infinite linear;
+animation: ras 7s infinite linear;
+z-index: -1;
 }
 /* squares------------------------------------------------------------ */
+
+#btlayer{
+/* z-index: 0; */
+position: relative;
+background-color: white;
+width: 50%;
+height: 500px;
+box-shadow: 0 0 5px 2px black;
+bottom: 350px;
+left: 45px;
+}
+#mdlayer{
+position: relative;
+/* z-index: 1; */
+background-color: white;
+width: 90%;
+height: 90%;
+margin-left: auto;
+margin-right: auto;
+top: 5.5%;
+box-shadow: 0 0 5px 2px black;
+/* animation: fashuff 2s linear infinite; */
+}
+#tplayer{
+  position:relative;
+  /* z-index: 2; */
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5.5%;
+  /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  box-shadow: 0 0 5px 2px black;
+  /* animation: fashuff 2s linear infinite; */
+}
+
 
 @keyframes ras {
   0%{
     transform: translateX(0) rotate(0);
+    opacity: 0;
+  }
+  15%{
+    transform: translateX(200px) rotate(45deg);
     opacity: 1;
   }
   100%{

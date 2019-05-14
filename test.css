@@ -1,0 +1,33 @@
+#btlayer{
+z-index: 0;
+background-color: white;
+width: 50%;
+height: 500px;
+box-shadow: 0 0 5px 2px black;
+
+}
+#mdlayer{
+position: relative;
+z-index: 1;
+background-color: white;
+width: 90%;
+height: 90%;
+margin-left: auto;
+margin-right: auto;
+top: 5.5%;
+box-shadow: 0 0 5px 2px black;
+/* animation: fashuff 2s linear infinite; */
+}
+#tplayer{
+  position:relative;
+  z-index: 2;
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 5.5%;
+  /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+  box-shadow: 0 0 5px 2px black;
+  /* animation: fashuff 2s linear infinite; */
+}
