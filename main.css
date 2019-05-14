@@ -71,5 +71,53 @@ body{
   background-color: black;
   position: relative;
   top: 1147px;
-  
+}
+/* squares------------------------------------------------------------ */
+#sq1{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 2s infinite linear;
+}
+#sq2{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 5s infinite linear;
+}
+#sq3{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 3s infinite linear;
+}
+#sq4{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 4s infinite linear;
+}
+#sq5{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 6s infinite linear;
+}
+#sq6{
+height: 16%;
+width:5%;
+background-color: white;
+animation: ras 5s infinite linear;
+}
+/* squares------------------------------------------------------------ */
+
+@keyframes ras {
+  0%{
+    transform: translateX(0) rotate(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateX(1200px) rotate(360deg);
+    opacity: 0;
+  }
 }
