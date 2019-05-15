@@ -69,6 +69,7 @@ body{
 .thing{
   position: relative;
   width: 35%;
+  height: 500px;
   left: 790px;
   top: 145px;
 }
@@ -123,6 +124,7 @@ box-shadow: 0 0 20px 1px black;
 .thing2{
   position: relative;
   width: 35%;
+  height: 500px;
   left: 790px;
   top: 145px;
 }
@@ -178,6 +180,7 @@ box-shadow: 0 0 20px 1px black;
 .thing3{
   position: relative;
   width: 35%;
+  height: 500px;
   left: 790px;
   top: 145px;
 }
