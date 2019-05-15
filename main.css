@@ -13,23 +13,56 @@ body{
   box-shadow: 0px 2px 10px grey;
 }
 #logo{
-  width:
+  width:15%;
+  height: 100%;
+  /* background-color: red; */
+  background-image: url('https://happylawnslincoln.com/wp-content/uploads/2016/04/logo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 #menu{
   position: relative;
-  left: 210px;
-  top: 23px;
-}
-#menu li{
   display: inline;
+  left: 210px;
+  top: -60px;
+}
+#list{
+  display: inline-grid;
   color: white;
-  margin:70px;
+  margin:-80px; /*this*/
+  /* margin:90px; */
+  opacity: 0;/*this*/
   cursor: pointer;
 }
-#menu li:hover{
+#list2{
+  display: inline-grid;
+  color: white;
+  margin:200px; /*this*/
+  /* margin:90px; */
+  opacity: 0;/*this*/
+  cursor: pointer;
+}
+#list3{
+  display: inline-grid;
+  color: white;
+  margin:110px; /*this*/
+  /* margin:90px; */
+  opacity: 0;/*this*/
+  cursor: pointer;
+}
+#list4{
+  display: inline-grid;
+  color: white;
+  margin:110px; /*this*/
+  /* margin:90px; */
+  opacity: 0;/*this*/
+  cursor: pointer;
+}
+/* #menu li:hover{
   color: red;
   cursor: pointer;
-}
+} */
 #box{
   position: relative;
 }
